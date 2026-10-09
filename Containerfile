@@ -6,6 +6,9 @@ RUN rpm-ostree override remove \
         plasma-workspace \
         kwin \
         dolphin \
+        dolphin-plugins \
+        plasma-login-manager \
+        plasma-print-manager \
         --install xfce4-session \
         --install xfce4-panel \
         --install xfwm4 \
